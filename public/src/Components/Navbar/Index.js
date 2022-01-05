@@ -26,7 +26,7 @@ export class Navbar extends Component {
                                 <a href="category.html">Trending</a>
                             </li>
                             <li>
-                                <a href="post.html"><i ></i></a>
+                                <a href="post.html"><i >bdflksdd</i></a>
                             </li>
                         </ul>
                     </div>
