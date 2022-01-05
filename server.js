@@ -11,7 +11,7 @@ var port = process.env.PORT || 8081
 dotenv.config()
 database.connect(process.env.DB_URL)
 app.use(express.json());
-app.use(express.static("public/build"))
+app.use(express.static("public/public"))
 
 // Handle 404 - Keep this as a last route
 app.use((req, res) => {
