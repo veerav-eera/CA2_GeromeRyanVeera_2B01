@@ -1,39 +1,30 @@
 {
-  "name": "ca2-gerome-ryan-veera-2b01",
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.2"
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "client-install": "npm install --prefix public",
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "npm start --prefix public",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "name": "ca2_geromeryanveera_2b01",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veerav-eera/CA2_GeromeRyanVeera_2B01.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veerav-eera/CA2_GeromeRyanVeera_2B01/issues"
+  },
+  "homepage": "https://github.com/veerav-eera/CA2_GeromeRyanVeera_2B01#readme",
+  "description": ""
 }
