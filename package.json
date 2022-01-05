@@ -6,7 +6,7 @@
     "express": "^4.17.2"
   },
   "scripts": {
-    "heroku-postbuild": "cd public && npm i && npm i --only=dev --no-shrinkwrap && npm run build",
+    "heroku-postbuild": "cd public && npm i && npm i --only=dev --no-shrinkwrap && npm run start",
     "start": "node server.js"
   },
   "name": "ca2_geromeryanveera_2b01",
