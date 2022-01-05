@@ -7,10 +7,9 @@
   },
   "scripts": {
     "client-install": "npm install --prefix public",
-    "start": "node server.js",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server.js",
-    "client": "npm start --prefix public",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix public"
   },
   "name": "ca2_geromeryanveera_2b01",
   "version": "1.0.0",
